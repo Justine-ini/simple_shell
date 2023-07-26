@@ -12,8 +12,7 @@
 
 int main(void)
 {
-	char **string;
-	char *new_line, *path;
+	char **string, *new_line, *path;
 	int i, status;
 
 	signal(SIGINT, _signal_handler);
